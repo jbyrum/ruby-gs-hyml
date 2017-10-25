@@ -1,6 +1,6 @@
 build:
-	languages: 
-      - heroku/ruby
+  languages: 
+    - heroku/ruby
   pre:
   post:
   packages:
