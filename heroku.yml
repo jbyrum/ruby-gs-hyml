@@ -1,7 +1,8 @@
 build:
-	languages: heroku/ruby
-	pre:
-	post:
-	packages:
+	languages: 
+      - heroku/ruby
+  pre:
+  post:
+  packages:
 run:
 	web: bundle exec puma -C config/puma.rb
